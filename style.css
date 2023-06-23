@@ -1,0 +1,109 @@
+header{
+  position: sticky;
+  top:0;
+  left:20px;
+  max-width:100%;
+  padding: 1px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.line {
+    position: absolute;
+    
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.Leftline {
+    position: absolute;
+    left: 300px;
+    width: 2px;
+    height: 1000px;
+    
+    background-color: black;
+    
+}
+
+.smallLine {
+  position: absolute;
+  left: 20px;
+  width: 100px;
+  height: 2px;
+  background-color: black;
+}
+  
+.indented-sum {
+    margin-left: 300px;
+  }
+.indented-con {
+    margin-left: 20px;
+  }
+.indented-summer {
+    margin-left: 2px;
+  }
+.indented-bullets {
+    margin-left: 0px;
+  }
+.container {
+  overflow: auto; /* Clear float */
+}
+
+img {
+  float: left;
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.container_contacts {
+  overflow: auto; /* Clear float */
+}
+
+
+
+.left-text {
+  text-align: left;
+}
+
+.center-text-containter {
+  position: relative; /* Set the container as a relative positioned element */
+}
+
+.center-text-containter .center-text{
+  position: absolute;
+  right: 20; /* Move the flex item to the right */
+
+}
+
+.center-text {
+  
+  position: absolute;
+  margin-left: 400px;
+  max-width: 100%;
+  text-align: center;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Replace with your desired background color */
+}
+
+.dark-bar {
+  position:absolute;
+  width: 300px; /* Adjust the width of the dark bar as needed */
+  height: 1000px;
+  background-color: rgb(143, 251, 245); /* Replace with your desired dark color */
+  z-index: -1;
+  
+}
+.hordark-bar {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 1625px; /* Adjust the width of the dark bar as needed */
+  height: 1vh;
+  background-color: rgb(143, 251, 245); /* Replace with your desired dark color */
+  z-index: -1;
+}
